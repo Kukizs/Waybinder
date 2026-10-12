@@ -1,0 +1,24 @@
+name: Feature request
+description: Suggest an improvement or new Waybinder feature.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Explain the use case first rather than only describing the proposed button or command.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Proposed idea
+      description: Describe how you think the feature should work.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or extra details
+      description: Optional alternatives, examples, screenshots, or notes.
